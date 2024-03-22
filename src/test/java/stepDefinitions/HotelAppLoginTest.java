@@ -21,6 +21,7 @@ public class HotelAppLoginTest {
 		driver =new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://adactinhotelapp.com/index.php");
+		System.out.println("adding a newline");
 		
 	}
 
