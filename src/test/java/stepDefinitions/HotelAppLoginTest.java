@@ -22,7 +22,7 @@ public class HotelAppLoginTest {
 		driver.manage().window().maximize();
 		driver.navigate().to("https://adactinhotelapp.com/index.php");
 		System.out.println("adding a newline");
-		driver.navigate().window().minimize();
+		
 		
 	}
 
