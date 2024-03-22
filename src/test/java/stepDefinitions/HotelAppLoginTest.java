@@ -19,7 +19,9 @@ public class HotelAppLoginTest {
 	    // Write code here that turns the phrase above into concrete actions
 	  //  throw new io.cucumber.java.PendingException();
 		driver =new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.navigate().to("https://adactinhotelapp.com/index.php");
+		
 	}
 
 	@When("I enter the username as {string}")
